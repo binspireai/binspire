@@ -9,6 +9,7 @@ coverage
 # production
 dist
 build
+dev-dist
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

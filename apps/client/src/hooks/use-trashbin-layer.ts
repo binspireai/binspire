@@ -67,7 +67,7 @@ export function useTrashbinLayer(trashbinsWithLevel: TrashbinWithLevel[]) {
 
   useEffect(() => {
     let frameId: number;
-    let start = performance.now();
+    const start = performance.now();
 
     const animate = (time: number) => {
       const t = ((time - start) / 1000) % 1;
