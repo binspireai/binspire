@@ -146,4 +146,11 @@ app-release.aab
 app-release.apk
 
 # nginx 
-nginx.conf
+nginx.conf 
+
+# Tanstack 
+.tanstack/
+
+# PWA 
+dev-dist
+.dev-dist
