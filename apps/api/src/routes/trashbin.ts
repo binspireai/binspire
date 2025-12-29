@@ -35,3 +35,5 @@ export const trashbinStatusRoutes = factory
   .post("/create", ...trashbinStatusHandler.create)
   .patch("/update/:id", ...trashbinStatusHandler.update)
   .delete("/delete/:id", ...trashbinStatusHandler.delete);
+
+export type AppType = typeof trashbinRoutes;

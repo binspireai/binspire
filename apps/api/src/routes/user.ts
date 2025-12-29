@@ -85,3 +85,5 @@ export const userGreenHeartRoutes = factory
   .post("/create", ...userGreenHeartHandler.create)
   .patch("/update/:id", ...userGreenHeartHandler.update)
   .delete("/delete/:id", ...userGreenHeartHandler.delete);
+
+export type AppType = typeof userRoutes;

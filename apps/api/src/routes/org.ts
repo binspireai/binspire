@@ -20,3 +20,5 @@ export const organizationSettingsRoutes = factory
   .patch("/update/:id", ...orgSettingsHandler.update)
   .patch("/update-secret/:id", ...orgSettingsHandler.updateSecret)
   .delete("/delete/:id", ...orgSettingsHandler.delete);
+
+export type AppType = typeof organizationRoutes;

@@ -10,3 +10,5 @@ export const historyRoutes = factory
   .post("/create", ...handler.create)
   .patch("/update/:id", ...handler.update)
   .delete("/delete/:id", ...handler.delete);
+
+export type AppType = typeof historyRoutes;

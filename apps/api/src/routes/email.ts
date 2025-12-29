@@ -9,3 +9,5 @@ export const emailRoutes = factory
   .post("/send-invitation", ...handler.sendInvitationEmail)
   .post("/send-request-demo", ...handler.sendRequestDemoEmail)
   .post("/send-newsletter", ...handler.sendNewsletterEmail);
+
+export type AppType = typeof emailRoutes;

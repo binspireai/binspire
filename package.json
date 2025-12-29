@@ -26,7 +26,8 @@
     "db:push": "bun --filter @binspire/db push",
     "db:studio": "bun --filter @binspire/db studio",
     "db:seed": "bun --filter @binspire/db seed",
-    "ui:add": "bun --filter @binspire/ui ui:add"
+    "ui:add": "bun --filter @binspire/ui ui:add",
+    "api:generate-docs": "bun --filter @binspire/api generate:docs"
   },
   "devDependencies": {
     "@types/bun": "latest",

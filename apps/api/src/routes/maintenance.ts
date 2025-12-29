@@ -8,3 +8,5 @@ export const maintenanceRoutes = factory
   .post("/create", ...new MaintenanceHandler().create)
   .patch("/update/:id", ...new MaintenanceHandler().update)
   .delete("/delete/:id", ...new MaintenanceHandler().delete);
+
+export type AppType = typeof maintenanceRoutes;
