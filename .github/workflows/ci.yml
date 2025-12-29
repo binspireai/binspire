@@ -33,3 +33,6 @@ jobs:
 
       - name: Build project
         run: bunx turbo run build
+
+      - name: Generate docs and open-api specs
+        run: bun run api:generate-docs
