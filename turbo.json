@@ -62,7 +62,6 @@
         "tsconfig.json",
         "tsconfig.*.json"
       ],
-      "outputs": [".eslintcache"],
       "env": ["NODE_ENV"]
     },
     "typecheck": {
@@ -75,7 +74,6 @@
         "tsconfig.*.json",
         "package.json"
       ],
-      "outputs": ["dist/**/*.d.ts", ".tsbuildinfo"],
       "env": ["NODE_ENV"]
     },
     "test": {
